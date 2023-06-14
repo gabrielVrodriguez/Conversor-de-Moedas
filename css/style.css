@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 96vh;
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(36, 21, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 21, 0, 1) 18%,
+    rgba(34, 6, 4, 1) 50%,
+    rgba(206, 149, 37, 1) 86%
+  );
+}
+
+.section-container {
+  width: 45%;
+  height: 70%;
+  border: 0.1em white solid;
+  border-radius: 10px;
+  text-align: center;
+  background: rgb(166, 163, 164);
+  background: linear-gradient(
+    90deg,
+    rgba(166, 163, 164, 1) 6%,
+    rgba(44, 46, 47, 1) 100%
+  );
+}
+
+.logo-conversor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+  border: 1px transparent;
+  border-radius: 50%;
+  background-color: rgb(56, 55, 55);
+  margin: 2em 0;
+  animation: up-down 3.5s infinite ease-in-out;
+}
+
+@keyframes up-down {
+  0% {
+    webkit-transform: translatey(0px);
+    transform: translatey(0);
+  }
+  50% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(241, 188, 39);
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+h1::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: rgb(247, 219, 183);
+}
+
+.conversor-container {
+  height: 43%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.valor {
+  width: 45%;
+  text-align: center;
+  height: 2.8em;
+  border: 1px solid black;
+}
+
+.valor:hover {
+  border-color: rgb(241, 188, 39);
+}
+
+.selecionar {
+  width: 50%;
+  text-align: center;
+  height: 2.8em;
+  border: 1px solid black;
+}
+
+.selecionar:hover {
+  border-color: rgb(241, 188, 39);
+}
+
+.swap {
+  width: 8%;
+  margin: 1.2em;
+  font-size: 1.3em;
+  background-color: rgb(241, 188, 39);
+  border: 1px solid transparent;
+  border-radius: 1em;
+  color: rgb(29, 29, 29);
+  cursor: pointer;
+}
+
+.swap:hover {
+  background-color: rgb(255, 187, 0);
+  transform: scale(1.05);
+}
+
+.info-convert {
+  margin-top: 1em;
+  color: aliceblue;
+  font-size: 1.1em;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(68, 66, 66);
+  height: 4vh;
+  color: white;
+}

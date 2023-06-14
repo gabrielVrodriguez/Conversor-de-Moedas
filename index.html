@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Medidas</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.cs"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="section-container">
+        <div class="logo-conversor">
+          <img
+            src="./img/png-clipart-computer-icons-currency-trade-currency-converter-text-trademark-thumbnail-removebg-preview.png"
+            alt=""
+          />
+          <h1>Conversor de moedas</h1>
+        </div>
+
+        <div class="conversor-container">
+          <div class="input-container">
+            <input type="number" value="1" class="valor" />
+            <select name="moeda" id="tipo-moeda" class="selecionar">
+              <option value="BRL">Real</option>
+              <option value="DLR">Dolar</option>
+              <option value="JPY">Iene</option>
+              <option value="EUR">Euro</option>
+              <option value="GBP">Libra Esterlina</option>
+              <option value="ARS">Peso Argentino</option>
+              <option value="CNY">Yuan</option>
+            </select>
+          </div>
+
+          <button class="swap">⇅</button>
+
+          <div class="input-container">
+            <input type="number" value="1" class="valor" />
+            <select name="moeda" id="tipo-moeda" class="selecionar">
+              <option value="BRL">Real</option>
+              <option value="DLR">Dolar</option>
+              <option value="JPY">Iene</option>
+              <option value="EUR">Euro</option>
+              <option value="GBP">Libra Esterlina</option>
+              <option value="ARS">Peso Argentino</option>
+              <option value="CNY">Yuan</option>
+            </select>
+          </div>
+
+          <div class="info-convert">
+            <p>A cotação atualizada é</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Gabriel Rodriguez</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
