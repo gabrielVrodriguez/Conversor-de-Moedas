@@ -23,23 +23,31 @@
 
         <div class="conversor-container">
           <div class="input-container">
-            <input type="number" value="1" class="valor" />
-            <select name="moeda" id="tipo-moeda" class="selecionar">
+            <input type="number" value="1" class="valor" id="from-quantity" />
+            <select
+              name="moeda"
+              class="selecionar"
+              id="from-money"
+            >
               <option value="BRL">Real</option>
-              <option value="DLR">Dolar</option>
-              <option value="JPY">Iene</option>
+              <option value="USD">Dolar</option>
               <option value="EUR">Euro</option>
+              <option value="JPY">Iene</option>
               <option value="GBP">Libra Esterlina</option>
               <option value="ARS">Peso Argentino</option>
               <option value="CNY">Yuan</option>
             </select>
           </div>
 
-          <button class="swap">⇅</button>
+          <button id="swap">⇅</button>
 
           <div class="input-container">
-            <input type="number" value="1" class="valor" />
-            <select name="moeda" id="tipo-moeda" class="selecionar">
+            <input type="number" value="1" class="valor" id="to-quantity" />
+            <select
+              name="moeda"
+              class="selecionar"
+              id="to-money"
+            >
               <option value="BRL">Real</option>
               <option value="DLR">Dolar</option>
               <option value="JPY">Iene</option>
@@ -50,7 +58,7 @@
             </select>
           </div>
 
-          <div class="info-convert">
+          <div id="info-convert">
             <p>A cotação atualizada é</p>
           </div>
         </div>
@@ -61,6 +69,6 @@
       <p>Desenvolvido por Gabriel Rodriguez</p>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

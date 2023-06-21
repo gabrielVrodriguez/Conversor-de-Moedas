@@ -108,7 +108,7 @@ h1::after {
   border-color: rgb(241, 188, 39);
 }
 
-.swap {
+#swap {
   width: 20%;
   margin: 1.2em;
   font-size: 1.3em;
@@ -119,12 +119,12 @@ h1::after {
   cursor: pointer;
 }
 
-.swap:hover {
+#swap:hover {
   background-color: rgb(255, 187, 0);
   transform: scale(1.05);
 }
 
-.info-convert {
+#info-convert {
   margin-top: 1em;
   color: aliceblue;
   font-size: 1.1em;
