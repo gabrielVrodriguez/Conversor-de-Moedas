@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Medidas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.cs"
+    />
+  </head>
+  <body>
+    <main>
+      <section class="section-container">
+        <div class="logo-conversor">
+          <img
+            src="{{ url_for('static', filename='png-clipart-computer-icons-currency-trade-currency-converter-text-trademark-thumbnail-removebg-preview.png')}}"
+            
+          />
+          <h1>Conversor de moedas</h1>
+        </div>
+
+        <div class="conversor-container">
+          <div class="input-container">
+            <input type="number" value="1" class="valor" id="from-quantity" />
+            <select name="moeda" class="selecionar" id="from-money" > </select>
+          </div>
+
+          <button id="swap">⇅</button>
+
+          <div class="input-container">
+            <input type="number" value="1" class="valor" id="to-quantity" />
+            <select name="moeda"class="selecionar" id="to-money"> </select>
+          </div>
+
+          <div id="info-convert">
+            <span id="tax-info"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Gabriel Rodriguez</p>
+    </footer>
+
+  </body>
+</html>
