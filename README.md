@@ -1,5 +1,4 @@
-![Conversor](https://github.com/gabrielVrodriguez/Conversor-de-Moedas/assets/121834753/eb0c0f16-b0a2-4b4d-8d94-18481c7b6843)
-
+![C](https://github.com/gabrielVrodriguez/Conversor-de-Moedas/assets/121834753/36b1ba43-54cd-479c-99fa-8bb79e851e9e)
 
 <h1 align="center">
  💸CONVERSOR DE MOEDAS 💸
